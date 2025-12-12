@@ -8,6 +8,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import dao.DBImplementation;
 import dao.ModelDAO;
+import dao.MongoImplements;
 import exception.ErrorMessages;
 import exception.OurException;
 import model.Profile;
@@ -45,7 +46,7 @@ public class Controller
     {
         try
         {
-            dao = new DBImplementation();
+            dao = new MongoImplements();
         }
         catch (Exception ex)
         {
