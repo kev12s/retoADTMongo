@@ -45,6 +45,10 @@ public class Admin extends Profile
         this.a_current_account = a_current_account;
     }
 
+    public Admin()
+    {
+
+    }
     /**
      * Retrieves the current administrative account identifier. This method returns the account number or identifier associated with the administrator's privileged access rights.
      *
